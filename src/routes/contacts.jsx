@@ -28,8 +28,7 @@ export default function Contact() {
                 <img
                     key={contact.avatar}
                     src={
-                        contact.avatar ||
-                        `https://robohash.org/${contact.id}.png?size=200x200`
+                        contact.avatar 
                     }
                 />
             </div>
@@ -50,7 +49,7 @@ export default function Contact() {
                     <p>
                         <a
                             target="_blank"
-                            href={`https://twitter.com/${contact.twitter}`}
+                            href={`https://x.com/${contact.twitter}`}
                         >
                             {contact.twitter}
                         </a>
