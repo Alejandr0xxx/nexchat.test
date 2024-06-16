@@ -1,7 +1,0 @@
-[build]
-  publish = "build" # o la carpeta donde se genera tu aplicación, normalmente "build"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
